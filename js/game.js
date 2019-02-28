@@ -6,15 +6,15 @@ var game = {
     levels: {
 
         start: {
-            message: "You come across a dark cave",
+            message: "You land in the Fortnite batte royale",
             choices: [
                 {
-                    text: "Enter the cave",
+                    text: "Grab guns and ammo",
                     nextLevel: "cave",
                 },
 
                 {
-                    text: "Keep on moving",
+                    text: "don't grab loot or anything",
                     nextLevel: "field",
                 },
             ]
@@ -23,8 +23,8 @@ var game = {
         cave: {
             background_image: "fire.gif",
             music: "Final-Fantasy-7-Boss-Battle.mp3",
-            message: "You come across a fire monster or something!",
-            choices: [
+            message: "You discovered and grabbed the infinity sword!",
+            choices: [ 
                 {
                     text: "Start over",
                     nextLevel: "start",
@@ -33,8 +33,8 @@ var game = {
         },
 
         field: {
-            message: "Some adventurer you are...",
-            choices: [
+            message: "you die and go back to the lobby",
+            choices: [ 
                 {
                     text: "Start over",
                     nextLevel: "start",
